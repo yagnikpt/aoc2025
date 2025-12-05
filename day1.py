@@ -1,8 +1,8 @@
-from utils.get_input import getInputForDay
+from utils.get_input import getInputByLines
 
 # Returns the password to open the door
 def part1() -> int:
-    lines = getInputForDay(1)
+    lines = getInputByLines(1)
     current = 50
     password = 0
 
@@ -21,7 +21,7 @@ def part1() -> int:
 
 # Returns the actual password to open the door
 def part2() -> int:
-    lines = getInputForDay(1)
+    lines = getInputByLines(1)
     current = 50
     password = 0
 
